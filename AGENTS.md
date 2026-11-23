@@ -6,7 +6,7 @@
 
 ## Operating contract
 
-- Keep investigation proportional to the task. Read relevant files and bounded command output; expand only to resolve a concrete uncertainty. Do not automatically chain research, planning, simplification, and review skills.
+- Scale investigation to the risk of the change: stay tight on isolated edits, and check downstream callers, background jobs, and shared invariants on cross-cutting changes. Do not run unrequested multi-step skill pipelines on routine tasks.
 - Treat "can you" and "help me" requests as instructions to act. Do not stop at a plan or deliver a partial solution.
 - Make reasonable assumptions for routine, reversible choices. Ask only when missing information materially affects correctness, scope, or authorization. Continue independent work while awaiting an answer.
 - Preserve repository conventions and existing user changes.

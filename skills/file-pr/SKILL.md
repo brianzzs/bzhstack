@@ -9,6 +9,12 @@ Before filing, check whether a PR for this branch already exists. Review the
 diff locally against the base branch (usually `origin/main`) to make sure its
 contents match the goal.
 
+For non-trivial changes that touch shared invariants or cross-cutting paths
+(DB migrations/query filters, auth, billing/webhooks, background jobs, shared
+state/caches, or API contracts), run the `blast-radius` skill before opening
+the PR unless a `blast-radius` or `council` pass already ran on this diff.
+Skip it for small, isolated, or cosmetic changes.
+
 PR titles usually become commit messages, so follow the repository's title
 conventions. Look at recently merged PRs and Git history for examples. Prefer a
 concise, human-readable title that explains why the change matters:
