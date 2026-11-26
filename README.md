@@ -2,7 +2,7 @@
 
 Personal, harness-agnostic AI setup: global instructions ([AGENTS.md](./AGENTS.md)) and 13 curated skills ([skills/](./skills)) designed to live in `~/.agents` and be symlinked into whichever coding harnesses are installed.
 
-**Recommended harness: [T3 Code](https://github.com/pingdotgg/t3code)** — its orchestrator capabilities (`orchestrator_capabilities` and `delegate_task`) let `bridge-room` and `council` fan out work across Claude, GPT, and Gemini in parallel (including isolated worktrees in arena mode).
+**Recommended ADE: [T3 Code](https://github.com/pingdotgg/t3code)** — its orchestrator capabilities (`orchestrator_capabilities` and `delegate_task`) let `bridge-room` and `council` fan out work across Claude, GPT, and Gemini in parallel (including isolated worktrees in arena mode).
 
 ## What's inside
 
